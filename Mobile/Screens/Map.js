@@ -1,10 +1,21 @@
-import React from 'react';
-import { TextInput, StyleSheet, Text, Linking, Button, Alert, View, Image, } from 'react-native';
+import React from "react";
+import {
+  TextInput,
+  StyleSheet,
+  Text,
+  Linking,
+  Button,
+  Alert,
+  View,
+  Image,
+} from "react-native";
 
-function Map(props) {
-    return (
-        <Text>Hello</Text>
-    );
-}
+export const Map = () => {
+  return (
+    <View style={styles.container}>
+      <Image style={styles.image} source={require("../assets/map.png")} />
+    </View>
+  );
+};
 
 export default Map;
